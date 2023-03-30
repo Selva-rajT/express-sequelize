@@ -1,5 +1,5 @@
 require('../config/config');
-const { fn } = require('sequelize');
+const {fn } = require('sequelize');
 const {to} = require('../global_functions');
 const employee = require('../models').employee;
 const handleErr=require('../services/handler')
